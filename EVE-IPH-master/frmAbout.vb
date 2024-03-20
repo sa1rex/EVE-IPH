@@ -57,4 +57,8 @@
     Private Sub pbPatreon_MouseLeave(sender As Object, e As EventArgs) Handles pbPatreon.MouseLeave
         Me.Cursor = Cursors.Default
     End Sub
+
+    Private Sub TextBoxDescription_TextChanged(sender As Object, e As EventArgs) Handles TextBoxDescription.TextChanged
+
+    End Sub
 End Class
