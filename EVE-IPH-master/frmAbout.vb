@@ -32,33 +32,37 @@
         Me.Close()
     End Sub
 
-    Private Sub pbPaypal_Click(sender As Object, e As EventArgs) Handles pbPaypal.Click
-        ' Take them to the donation page
-        Call Process.Start("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HSZKRQYTX5HR6&source=url")
-    End Sub
+    ' Private Sub pbPaypal_Click(sender As Object, e As EventArgs) Handles pbPaypal.Click
+    ' Take them to the donation page
+    ' Call Process.Start("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HSZKRQYTX5HR6&source=url")
+    ' End Sub
 
-    Private Sub pbPaypal_MouseEnter(sender As Object, e As EventArgs) Handles pbPaypal.MouseEnter
+    Private Sub pbPaypal_MouseEnter(sender As Object, e As EventArgs)
         Me.Cursor = Cursors.Hand
     End Sub
 
-    Private Sub pbPaypal_MouseLeave(sender As Object, e As EventArgs) Handles pbPaypal.MouseLeave
+    Private Sub pbPaypal_MouseLeave(sender As Object, e As EventArgs)
         Me.Cursor = Cursors.Default
     End Sub
 
-    Private Sub pbPatreon_Click(sender As Object, e As EventArgs) Handles pbPatreon.Click
-        ' Take them to the donation page
-        Call Process.Start("https://www.patreon.com/user?u=51064427&fan_landing=true")
-    End Sub
+    ' Private Sub pbPatreon_Click(sender As Object, e As EventArgs) Handles pbPatreon.Click
+    ' Take them to the donation page
+    ' Call Process.Start("https://www.patreon.com/user?u=51064427&fan_landing=true")
+    ' End Sub
 
-    Private Sub pbPatreon_MouseEnter(sender As Object, e As EventArgs) Handles pbPatreon.MouseEnter
+    Private Sub pbPatreon_MouseEnter(sender As Object, e As EventArgs)
         Me.Cursor = Cursors.Hand
     End Sub
 
-    Private Sub pbPatreon_MouseLeave(sender As Object, e As EventArgs) Handles pbPatreon.MouseLeave
+    Private Sub pbPatreon_MouseLeave(sender As Object, e As EventArgs)
         Me.Cursor = Cursors.Default
     End Sub
 
     Private Sub TextBoxDescription_TextChanged(sender As Object, e As EventArgs) Handles TextBoxDescription.TextChanged
+
+    End Sub
+
+    Private Sub TableLayoutPanel_Paint(sender As Object, e As PaintEventArgs) Handles TableLayoutPanel.Paint
 
     End Sub
 End Class

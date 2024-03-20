@@ -10,15 +10,15 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyTitle("EVE Isk per Hour")>
 <Assembly: AssemblyDescription("Using CCP Data Export: " & SDEVersion & vbCrLf & vbCrLf & "If you would like to support this application, send ISK donations to Zifrian in game." _
                                 & vbCrLf & vbCrLf & "Underlying data and images in EVE IPH are owned by © 2016 CCP hf. All rights reserved. ""EVE"", ""EVE Online"", ""CCP"", and all related logos and images are trademarks or registered trademarks of CCP hf.")>
-<Assembly: AssemblyCompany("EVE IPH")> 
-<Assembly: AssemblyProduct("EVE Isk per Hour")> 
-<Assembly: AssemblyCopyright("Copyright © EVE IPH 2016")> 
-<Assembly: AssemblyTrademark("")> 
+<Assembly: AssemblyCompany("EVE IPH")>
+<Assembly: AssemblyProduct("EVE Isk per Hour")>
+<Assembly: AssemblyCopyright("Copyright © EVE IPH 2016")>
+<Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("9e10aed3-c4d1-4a2e-bb38-eb87608300a8")> 
+<Assembly: Guid("9e10aed3-c4d1-4a2e-bb38-eb87608300a8")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion(VersionNumber)> 
+<Assembly: AssemblyVersion(VersionNumber)>
 

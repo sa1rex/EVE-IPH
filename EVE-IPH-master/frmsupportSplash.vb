@@ -4,29 +4,29 @@
         End
     End Sub
 
-    Private Sub pbPaypal_Click(sender As Object, e As EventArgs) Handles pbPaypal.Click
+    Private Sub pbPaypal_Click(sender As Object, e As EventArgs)
         ' Take them to the donation page
         Call Process.Start("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HSZKRQYTX5HR6&source=url")
     End Sub
 
-    Private Sub pbPaetron_Click(sender As Object, e As EventArgs) Handles pbPaetron.Click
+    Private Sub pbPaetron_Click(sender As Object, e As EventArgs)
         ' Take them to the donation page
         Call Process.Start("https://www.patreon.com/user?u=51064427&fan_landing=true")
     End Sub
 
-    Private Sub pbPaetron_MouseEnter(sender As Object, e As EventArgs) Handles pbPaetron.MouseEnter
+    Private Sub pbPaetron_MouseEnter(sender As Object, e As EventArgs)
         Me.Cursor = Cursors.Hand
     End Sub
 
-    Private Sub pbPaetron_MouseLeave(sender As Object, e As EventArgs) Handles pbPaetron.MouseLeave
+    Private Sub pbPaetron_MouseLeave(sender As Object, e As EventArgs)
         Me.Cursor = Cursors.Default
     End Sub
 
-    Private Sub pbPaypal_MouseEnter(sender As Object, e As EventArgs) Handles pbPaypal.MouseEnter
+    Private Sub pbPaypal_MouseEnter(sender As Object, e As EventArgs)
         Me.Cursor = Cursors.Hand
     End Sub
 
-    Private Sub pbPaypal_MouseLeave(sender As Object, e As EventArgs) Handles pbPaypal.MouseLeave
+    Private Sub pbPaypal_MouseLeave(sender As Object, e As EventArgs)
         Me.Cursor = Cursors.Default
     End Sub
 End Class

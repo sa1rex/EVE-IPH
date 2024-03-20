@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BPTabSettings>
+  <BlueprintTypeSelection>All</BlueprintTypeSelection>
+  <Tech1Check>True</Tech1Check>
+  <Tech2Check>True</Tech2Check>
+  <Tech3Check>True</Tech3Check>
+  <TechStorylineCheck>True</TechStorylineCheck>
+  <TechFactionCheck>True</TechFactionCheck>
+  <TechPirateCheck>True</TechPirateCheck>
+  <IncludeUsage>False</IncludeUsage>
+  <IncludeTaxes>True</IncludeTaxes>
+  <PricePerUnit>False</PricePerUnit>
+  <ProductionLines>1</ProductionLines>
+  <LaboratoryLines>1</LaboratoryLines>
+  <RELines>1</RELines>
+  <SmallCheck>False</SmallCheck>
+  <MediumCheck>False</MediumCheck>
+  <LargeCheck>False</LargeCheck>
+  <XLCheck>False</XLCheck>
+  <IncludeFees>0</IncludeFees>
+  <IncludeInventionCost>True</IncludeInventionCost>
+  <IncludeInventionTime>False</IncludeInventionTime>
+  <IncludeCopyCost>True</IncludeCopyCost>
+  <IncludeCopyTime>False</IncludeCopyTime>
+  <IncludeT3Cost>False</IncludeT3Cost>
+  <IncludeT3Time>False</IncludeT3Time>
+  <RelicType />
+  <T2DecryptorType />
+  <IgnoreInvention>False</IgnoreInvention>
+  <IgnoreMinerals>False</IgnoreMinerals>
+  <IgnoreT1Item>False</IgnoreT1Item>
+  <IncludeIgnoredBPs>False</IncludeIgnoredBPs>
+  <T3DecryptorType />
+  <ExporttoShoppingListType>Components</ExporttoShoppingListType>
+  <RawColumnSort>4</RawColumnSort>
+  <RawColumnSortType>Descending</RawColumnSortType>
+  <CompColumnSort>4</CompColumnSort>
+  <CompColumnSortType>Descending</CompColumnSortType>
+  <RawProfitType>Profit</RawProfitType>
+  <CompProfitType>Profit</CompProfitType>
+  <CompressedOre>False</CompressedOre>
+  <SimpleCopyCheck>False</SimpleCopyCheck>
+  <NPCBPOs>False</NPCBPOs>
+  <SellExcessBuildItems>True</SellExcessBuildItems>
+  <BrokerFeeRate>0.05</BrokerFeeRate>
+  <BuildT2T3Materials>1</BuildT2T3Materials>
+</BPTabSettings>
